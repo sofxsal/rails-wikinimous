@@ -3,4 +3,18 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+
+  # read
+  get "articles", to: "articles#index"
+
+  # create
+
+  # show
+
+  # edit
+
+  # update
+
+  # destroy
+
 end
