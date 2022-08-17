@@ -8,8 +8,10 @@ Rails.application.routes.draw do
   get "articles", to: "articles#index"
 
   # create
+  get "articles/new", to: "articles#new"
 
   # show
+  get "articles/:id", to: "articles#show"
 
   # edit
 
